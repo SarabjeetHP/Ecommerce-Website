@@ -1,9 +1,12 @@
-import Footer from "@/components/shared/footer/footer";
+import Contact from "@/Component/Contact/Contact";
+import Footer from "@/Component/Shared/Footer/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main>
       <h1>Ecommerce </h1>
+      <h2>TEST</h2>
+      <Contact />
       <Footer />
     </main>
   );
