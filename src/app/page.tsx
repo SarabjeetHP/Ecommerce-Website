@@ -1,14 +1,13 @@
-import Header from "@/Component/Shared/Header/Header";
-
-import Footer from "@/Component/Shared/Footer/Footer";
 
 
+import HomePage from "../Component/Home/Homes";
 
 
-export default function Home() {
+export default function Homes() {
   return (
     <main >
-      <Header/>
+      
+      <HomePage/>
     </main>
   );
 }

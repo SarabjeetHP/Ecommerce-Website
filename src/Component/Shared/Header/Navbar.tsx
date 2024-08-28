@@ -4,8 +4,8 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
   return (
-    <header className="fixed top-0 left-0 w-full  bg-red-500">
-      <nav className="flex justify-between items-center w-full p-2 bg-black text-white px-16">
+    <header className="fixed top-0 left-0 w-full z-50  bg-red-500">
+      <nav className="flex justify-between items-center w-full p-2 bg-black text-white px-12">
         {/* Left Section */}
         <div className="flex items-center gap-4">
           <button className="bg-gray-800 text-white py-2 px-4 rounded-md flex items-center hover:bg-gray-700">
