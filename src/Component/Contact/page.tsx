@@ -2,8 +2,9 @@ import React from "react";
 import Image from "../../assets/image.png";
 import Image2 from "../../assets/image2.png";
 import Image3 from "../../assets/image3.png";
-
 import ContactAndReturnPolicy from "./ContactInfo";
+import FAQ from "./Faq";
+
 const Header: React.FC = () => {
   return (
     <>
@@ -49,20 +50,32 @@ const Header: React.FC = () => {
             Ease into the world of styloom clarit. Our FAQ cover a spectrum of
             topics.
           </p>
-          <div className="gap-4">
-            <button>All</button>
-            <button>Ordering</button>
-            <button>Shipping</button>
-            <button>Returns</button>
-            <button>Support</button>
+          <div className="flex justify-around mt-8 mb-6">
+            <button className="text-gray-400 border-b-2 border-transparent hover:bg:red">
+              All
+            </button>
+            <button className="text-gray-400 border-b-2 border-transparent hover:border-white">
+              Ordering
+            </button>
+            <button className="text-gray-400 border-b-2 border-transparent hover:border-white">
+              Shipping
+            </button>
+            <button className="text-gray-400 border-b-2 border-transparent hover:border-white">
+              Returns
+            </button>
+            <button className="text-gray-400 border-b-2 border-transparent hover:border-white">
+              Support
+            </button>
           </div>
         </div>
+
         <div className="flex-shrink-0">
           <div className="w-24 h-24 md:w-32 md:h-32 bg-[url('/project/src/assets/image.png')] bg-no-repeat bg-contain">
             <img src={Image3.src}></img>
           </div>
         </div>
       </div>
+      <FAQ />
     </>
   );
 };
