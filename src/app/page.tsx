@@ -7,11 +7,8 @@ import Header from "@/Component/Shared/Header/Header";
 export default function Home() {
   return (
     <main>
-      <h1>Ecommerce </h1>
-      <h2>TEST</h2>
+      {/* <Header /> */}
       <Contact />
-      <Header />
-      <Footer />
       <Footer />
     </main>
   );
