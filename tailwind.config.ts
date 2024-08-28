@@ -5,7 +5,11 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> a0d39f261e9a4b304d5c511a66a4a1d6b84c03ac
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
