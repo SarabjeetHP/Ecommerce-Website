@@ -1,6 +1,5 @@
 import React from 'react';
-
-import midimg2 from '../../../src/assets/midimg2.png'
+import midimg2 from '../../../src/assets/midimg2.png';
 
 const Midd3: React.FC = () => {
   return (
@@ -8,20 +7,20 @@ const Midd3: React.FC = () => {
       <div className="max-w-screen-xl mx-auto px-4">
         
         {/* Upper Dotted Box */}
-        <div className="border-dotted border-2 border-gray-600 p-8 rounded-xl flex items-center justify-between">
-          <div className="text-left">
+        <div className="border-dotted border-2 border-gray-600 p-8 rounded-xl flex items-center">
+          <div className="text-left ml-12">
             <h2 className="text-3xl font-bold mb-2">NAVIGATING THE STYLELOOM FASHION JOURNEY.</h2>
             <p className="text-gray-400">
               At StyleLoom, we've designed a straightforward shopping experience to make fashion accessible.
             </p>
           </div>
-          <div className="ml-8 w-40 h-40 m-0">
-            <img src={midimg2.src} alt="Design Element" className="object-cover w-full h-full m-0" />
+          <div className="w-40 h-40">
+            <img src={midimg2.src} alt="Design Element" className="object-cover w-full h-full ml-64" />
           </div>
         </div>
 
         {/* Lower Dotted Box */}
-        <div className="mt-8 border-dotted border-2 border-gray-600 p-8 rounded-xl">
+        <div className=" border-dotted border-2 border-gray-600 p-8 rounded-xl">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
             {/* Step 01 */}
             <div className="border-dotted border-2 border-gray-600 p-6 rounded-lg">
