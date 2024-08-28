@@ -4,14 +4,14 @@ import icon from "../../../assets/Icon.png";
 import shape from "../../../assets/Shape.png";
 import { testimonials } from "./data";
 
-const Testimonial = () => {
+const Testimonial: React.FC  = () => {
   return (
-    <section className="bg-black text-white py-12 relative flex justify-center">
+    <section className="bg-black text-white py-12  flex justify-center ">
       <div
-        className="absolute top-0 hidden md:block" 
+        className="absolute top-0 hidden md:block " 
        
       />
-      <div className="bg-black bg-opacity-50 py-12">
+      <div className="bg-black bg-opacity-50 py-12 w-[90%]">
         <div className="max-w-7xl px-4 sm:px-6">
           <h2 className="font-roboto text-3xl sm:text-4xl lg:text-4xl font-medium leading-tight mb-4 text-white">
             THE STYLELOOM TESTIMONIAL COLLECTION.
@@ -23,10 +23,10 @@ const Testimonial = () => {
           <img
             src={img1.src}
             alt="Background"
-            className="w-40 h-40 sm:w-56 sm:h-56 absolute right-0 top-0 hidden md:block" // Hide on mobile, show on medium and larger screens
+            className="sm:w-40 sm:h-46 absolute right-20 top-20 hidden md:block" // Hide on mobile, show on medium and larger screens
           />
 </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1">
             {" "}
             {/* Added gap for spacing */}
             {testimonials.map((testimonial, index) => (

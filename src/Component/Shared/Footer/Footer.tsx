@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 
 const Footer: React.FC = () => {
@@ -83,18 +82,3 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
-=======
-import React from 'react';
-
- // Import the Navbar component
-
-const Header: React.FC = () => {
-  return (
-    <>
-    <h1>Footer</h1>
-    </>
-  );
-}
-
-export default Header;
->>>>>>> fffad8252b3e47d83b0b8a76bf295663172bdb61

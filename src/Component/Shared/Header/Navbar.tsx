@@ -4,7 +4,7 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
   return (
-    <header className="fixed top-0 left-0 w-full  bg-red-500">
+    <header className="fixed w-full  bg-red-500">
       <nav className="flex justify-between items-center w-full p-2 bg-black text-white px-16">
         {/* Left Section */}
         <div className="flex items-center gap-4">

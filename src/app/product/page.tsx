@@ -1,17 +1,18 @@
-import Contact from "@/Component/Contact/Contact";
 import Product from "@/Component/Product/Product";
 import Footer from "@/Component/Shared/Footer/Footer";
-
-import Header from "@/Component/Shared/Header/Header";
 import Navbar from "@/Component/Shared/Header/Navbar";
-
 import Testimonial from "@/Component/Shared/Testimonial/Testimonial";
+import React from "react";
 
-export default function Home() {
+const ProductPage = () => {
   return (
     <>
-      <Testimonial />
-      <Contact />
+     
+      <Product />
+      <Testimonial/>
+     
     </>
   );
-}
+};
+
+export default ProductPage;
