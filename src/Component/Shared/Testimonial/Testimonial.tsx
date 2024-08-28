@@ -6,7 +6,7 @@ import { testimonials } from "./data";
 
 const Testimonial = () => {
   return (
-    <section className="bg-black text-white py-12 relative">
+    <section className="bg-black text-white py-12 relative flex justify-center">
       <div
         className="absolute top-0 hidden md:block" 
        
@@ -25,7 +25,7 @@ const Testimonial = () => {
             alt="Background"
             className="w-40 h-40 sm:w-56 sm:h-56 absolute right-0 top-0 hidden md:block" // Hide on mobile, show on medium and larger screens
           />
-
+</div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {" "}
             {/* Added gap for spacing */}
@@ -69,7 +69,7 @@ const Testimonial = () => {
             ))}
           </div>
         </div>
-      </div>
+     
     </section>
   );
 };
